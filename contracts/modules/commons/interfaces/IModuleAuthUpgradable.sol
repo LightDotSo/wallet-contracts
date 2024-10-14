@@ -6,5 +6,5 @@ interface IModuleAuthUpgradable {
   /**
    * @notice Returns the current image hash of the wallet
    */
-  function imageHash() external view returns (bytes32);
+  function imageHash(address account) external view returns (bytes32);
 }
